@@ -2044,7 +2044,7 @@
 
     .line 981
     .local v0, "ret":I
-    invoke-static {p3}, Landroid/telephony/SubscriptionManager;->getSimStateForSlotIndex(I)I
+    invoke-static {p3}, Landroid/telephony/TelephonyManager;->getSimStateForSlotIndex(I)I
 
     move-result v2
 
